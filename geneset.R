@@ -9,10 +9,10 @@ library(tidyverse)
 library(qusage)
 
 #set directory 
-setwd("/usr4/bf527/ryamani/Documents/bf528/project1/Biologist/")
+setwd("/usr4/bf527/yamuna21/Documents/bf528/project1/Biologist/")
 
 #uplaod the data from the analyst part
-sample_data <- read.csv("/usr4/bf527/ryamani/Documents/bf528/project1/Biologist/5_4_Welch", row.names = 1, header = TRUE)
+sample_data <- read.csv("/usr4/bf527/yamuna21/Documents/bf528/project1/Biologist/5_4_Welch", row.names = 1, header = TRUE)
 
 #Order t-test by descending 
 desc_t <- sample_data %>% arrange(desc(t_test_statistic))
