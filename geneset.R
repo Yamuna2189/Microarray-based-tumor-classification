@@ -46,9 +46,9 @@ write.csv(top10_up, file = "top10_up_results.csv", row.names = FALSE)
 write.csv(top10_down, file = "top10_down_results.csv", row.names = FALSE)
 
 #Gene sets and loading data
-hallmarks <- getGmt("/usr4/bf527/ryamani/Documents/bf528/project1/h.all.v7.5.1.symbols.gmt")
-kegg <- getGmt("/usr4/bf527/ryamani/Documents/bf528/project1/c2.cp.kegg.v7.5.1.symbols.gmt")
-go <- getGmt("/usr4/bf527/ryamani/Documents/bf528/project1/c5.go.v7.5.1.symbols.gmt")
+hallmarks <- getGmt("/usr4/bf527/yamuna21/Documents/bf528/project1/h.all.v7.5.1.symbols.gmt")
+kegg <- getGmt("/usr4/bf527/yamuna21/Documents/bf528/project1/c2.cp.kegg.v7.5.1.symbols.gmt")
+go <- getGmt("/usr4/bf527/yamuna21/Documents/bf528/project1/c5.go.v7.5.1.symbols.gmt")
 
 #second answer
 #calculate the number of genesets in each databases
